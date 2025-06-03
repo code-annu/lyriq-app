@@ -70,11 +70,12 @@ class MaterialTheme {
       onSecondary: Color(0xff787582),
       error: Color(0xffffb4ab),
       onError: Color(0xff690005),
-      surface: Color(0x00201f22),
+      surface: Color(0x55201f22),
       onSurface: Color(0xffffffff),
       onSurfaceVariant: Color(0xfff6f8fa),
     );
   }
+
 
   ThemeData lyriq() {
     return theme(lyriqScheme());
