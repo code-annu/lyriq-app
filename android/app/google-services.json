@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412553323470",
+    "project_id": "lyriq-3b65c",
+    "storage_bucket": "lyriq-3b65c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412553323470:android:738f7e179923e0b892819f",
+        "android_client_info": {
+          "package_name": "com.lyriq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412553323470-s09cs90s0dr1s6nlehgpaltqqd7cem89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLmluxMxTlofzNzP2tvFcvkWoV_N2t83Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412553323470-s09cs90s0dr1s6nlehgpaltqqd7cem89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

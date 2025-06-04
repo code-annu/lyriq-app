@@ -1,10 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:lyriq/app/navigation/app_flow.dart';
 import 'package:lyriq/feature/authentication/presentation/ui/screen/authentication_screen.dart';
 
+import 'app/navigation/route.dart';
 import 'app/theme/theme.dart';
 import 'app/theme/util.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -25,9 +30,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: theme.lyriq(),
       debugShowCheckedModeBanner: false,
-      home: const AuthenticationScreen(),
+      routes: appFlow,
+      initialRoute: AppRoutes.routeAuthentication,
     );
   }
 }
-
-
