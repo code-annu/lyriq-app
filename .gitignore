@@ -45,4 +45,5 @@ app.*.map.json
 /android/app/release
 
 
-# My custom
+# My custom files
+/android/app/google-services.json
