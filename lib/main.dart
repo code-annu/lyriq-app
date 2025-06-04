@@ -30,7 +30,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: theme.lyriq(),
       debugShowCheckedModeBanner: false,
-      routes: appFlow,
+      // routes: appFlow,
+      onGenerateRoute: AppRouteGenerator.onGenerateAppRoute,
       initialRoute: AppRoutes.routeAuthentication,
     );
   }
